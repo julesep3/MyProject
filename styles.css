@@ -1,10 +1,10 @@
 body {
-	background-color: rgb(187, 209, 148);
+	background-color: #555;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: azure;
+	color: #cdebeb8d;
 	text-align: justify;
 }
 
@@ -15,7 +15,15 @@ h1 {
 
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	color: brown;
+	color: antiquewhite;
 	text-align: center;
 	font-size: 12px;
+}
+
+.Cat-text{
+	color: black;
+}
+
+#lorem {
+	font-size: 40px;
 }
