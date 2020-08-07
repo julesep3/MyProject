@@ -1,3 +1,21 @@
 body {
 	background-color: rgb(187, 209, 148);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: azure;
+	text-align: justify;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: brown;
+	text-align: center;
+	font-size: 12px;
 }
