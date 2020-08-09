@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #cdebeb8d;
+	color: #1685858d;
 	text-align: justify;
 	margin-left: 15px;
 }
@@ -22,17 +22,46 @@ h1 {
 }
 
 p {
-	font-family: Arial, Helvetica, sans-serif;
-	color: antiquewhite;
+	color: rgb(174, 123, 56);
 	text-align: center;
 	font-size: 12px;
 	margin: 10px;
 }
 
-.Cat-text{
+.main-text{
 	color: black;
 }
 
 #lorem {
 	font-size: 40px;
+}
+
+.container {
+	width: 1140px;
+	margin: 20px auto 0 auto;
+}
+
+.blogpost {
+	background-color: blue;
+	width: 75%;
+	float: left;
+	padding-right: 30px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-text {
+	background-color:green;
+	width: 25%;
+	float: left;
+}
+
+.author {
+	background-color: yellow;
+	border-top: 3px solid #cc2c2c;
+	padding-top: 20px;
 }
